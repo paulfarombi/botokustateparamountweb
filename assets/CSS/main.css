@@ -191,7 +191,6 @@ header .navbar {
 
 /* About Togbe best features */
 .best-features {
-    width: 100%;
     margin: 30px 80px 0;
 }
 .best-features .row {
@@ -213,29 +212,31 @@ header .navbar {
 }
 
 .best-features .right-content {
-    width: 50%; 
+    width: 50%;
     /* float: right; 
     position: relative; */
     padding-left: 50px;
 }
-.accordion {
+.best-features .col-md-4 {
     width: 100%;
+    background-color: var(--bg);
 }
+
 .accordion li {
-  justify-content: space-between;
-}
-.accordion a {
   cursor: pointer;
   font-size: 17px;
   color: var(--green);
-  /* width: 100%; */
-  background-color: var(--bg);
+  border-bottom: 0.05px solid rgba(0, 0, 0, 0.3);
   padding: 15px;
+  width: 100%;
   font-weight: bold;
   transition: all 0.3s;
 }
-  
-.accordion a:hover {
+.accordion .fa-solid {
+    float: right;
+    padding: 0 25px;
+}  
+.accordion li:hover {
   color: var(--bg) !important;
   background-color: var(--green);
 }
@@ -252,12 +253,7 @@ header .navbar {
 .accordion li:first-child {
   border-top: 1px solid var(--bg);
 }
-  
-.accordion li {
-  /* border-bottom: 1px solid var(--bg); */
-  padding: 15px 0px;
-  width: 100%;
-}
+
 
 
 
@@ -364,12 +360,16 @@ header .navbar {
     color: #fff;
     padding: 15px;
     margin-top: 15px;
-    font-size: 15px;
+    font-size: 18px;
+    word-spacing: 1.5;
     font-weight: bold;
     border: 2px solid #fff;
     border-radius: 15px;
 }
-
+.tourism a:hover {
+    color: var(--green);
+    background: #fff;
+}
 .footer {
     background-color: var(--gold);
     width: 100%;
