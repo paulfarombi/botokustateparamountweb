@@ -93,11 +93,16 @@ header .navbar {
     text-decoration: none;
     padding: 7px 10px;
 }
-
+.current {
+    background-color: var(--gold);
+    color: var(--bg);
+    border-radius: 15px;
+    margin-right: 10px;
+}
 .navbar-collapse ul li a:hover {
     background-color: var(--gold);
     color: var(--bg);
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .hero-banner {
@@ -121,7 +126,7 @@ header .navbar {
     font-weight: bold;    
 }
 
-
+/* Carousel Session */
 .carousel-sec {
     width: 100%;
     padding: 30px 80px 0;
@@ -183,23 +188,23 @@ header .navbar {
     background: var(--black);
     color: var(--bg);
 }
-/* best features */
+
+/* About Togbe best features */
 .best-features {
     width: 100%;
     margin: 30px 80px 0;
 }
 .best-features .row {
     display: inline-flex;
-    /* border-bottom: 0.5px solid var(--main-color); */
     padding-bottom: 30px;
 }
 .left-content {
     width: 50%;
-    position: relative;
+    /* position: relative; */
     color: var(--gold);
 }
 .best-features .left-content img {
-    /* float: left; */
+    float: left;
     width: 100%;
 }
 .best-features .left-content p {
@@ -208,10 +213,13 @@ header .navbar {
 }
 
 .best-features .right-content {
-    /* width: 50%; */
-    float: right;
-    position: relative;
+    width: 50%; 
+    /* float: right; 
+    position: relative; */
     padding-left: 50px;
+}
+.accordion {
+    width: 100%;
 }
 .accordion li {
   justify-content: space-between;
