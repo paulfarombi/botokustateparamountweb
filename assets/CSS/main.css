@@ -205,8 +205,9 @@ header .navbar {
 }
 .best-features .left-content p {
     color: var(--main-color);
-    font-size: 15x;
+    font-size: 15px;
 }
+
 .best-features .left-content a {
     color: var(--green);
     font-weight: 550;
