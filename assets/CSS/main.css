@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 :root{
     --main-color:#333333;
     --black:#13131a;
@@ -14,7 +16,7 @@
 
 body {
     /* font-family: "Open Sans", Helvetica, Arial, sans-serif; */
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -43,9 +45,9 @@ h6 {
 header {
     z-index: 99999;
     width: 100%;
-    color: var(--main-color);
-    background-color: var(--bg);
-    border-bottom: 4px solid var(--bg);
+    color: var(--bg);
+    background-color: var(--black);
+    border-bottom: 4px solid var(--black);
     -webkit-transition: all 0.3s ease-in-out 0s;
     -moz-transition: all 0.3s ease-in-out 0s;
     -o-transition: all 0.3s ease-in-out 0s;
@@ -89,7 +91,7 @@ header .navbar {
    font-weight: bold;
 }
 .navbar-collapse ul li a{
-    color: var(--main-color);
+    color: var(--bg);
     text-decoration: none;
     padding: 7px 10px;
 }
@@ -101,7 +103,7 @@ header .navbar {
 }
 .navbar-collapse ul li a:hover {
     background-color: var(--gold);
-    color: var(--bg);
+    color: var(--black);
     border-radius: 15px;
 }
 
@@ -358,13 +360,13 @@ header .navbar {
 
 .tourism a {
     color: #fff;
-    padding: 15px;
+    padding: 10px;
     margin-top: 15px;
-    font-size: 18px;
+    font-size: 16px;
     word-spacing: 1.5;
-    font-weight: bold;
+    font-weight: bolder;
     border: 2px solid #fff;
-    border-radius: 15px;
+    border-radius: 12px;
 }
 .tourism a:hover {
     color: var(--green);
@@ -373,7 +375,7 @@ header .navbar {
 
 /* Footer  Session */
 .footer {
-    background-color: var(--gold);
+    background-color: var(--black);
 }
 .footer .container {
     padding: 30px 80px 0;
@@ -388,15 +390,30 @@ header .navbar {
 }
 .footer .footer-left {
     display: inline-block;
-    width: 20%;
+    width: 25%;
+}
+.logo-footer {
+    padding-bottom: 15px;
 }
 .logo-footer img {
     width: 100px;
     height: 100px;
+    padding-bottom: 10px;
 }
 
 .logo-footer h4{
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.logo-footer h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer .contact-footer h3 {
+    padding-bottom: 10px;
+}
+.footer .contact-footer .fa-solid {
+    padding-right: 5px;
 }
 .footer .footer-contents .head {
     font-size: 18px;
@@ -426,8 +443,33 @@ header .navbar {
 }
 .footer-form {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
 }
+.footer form {
+    position: relative;
+    display: inline-flex;
+    border-radius: 10px;
+}
+.footer .footer-form h4 {
+    padding: 10px 0;
+}
+.footer #email {
+    height: 30px;
+    padding-left: 4px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.footer .btn-list {
+    height: 30px;
+    background-color: #9f7728;
+    border-color: #9f7728;
+    color: #fff;
+    cursor: pointer;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 0 10px;
+}
+
 
 .footer .footer-bottom {
     width: 100%;
@@ -437,7 +479,7 @@ header .navbar {
     text-align: right;
 }
 .footer .footer-socials {
-    width: 60%;
+    width: 55%;
 }
 .footer .footer-socials ul {
     display: flex;
@@ -451,8 +493,8 @@ header .navbar {
     color: var(--green);
 }
 .footer-policy {
-    width: 40%;
-    float: right;
+    width: 45%;
+    /* float: right; */
 }
 .footer-policy ul li {
     float: right;
