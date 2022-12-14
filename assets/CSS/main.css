@@ -532,4 +532,14 @@ header .navbar {
         z-index: 99999;
         box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
     }
+
+}
+
+
+/* Max-width of 768PX */
+@media (max-width: 768px) {
+    header {
+        width: 100%;
+        left: 0;
+    }
 }
