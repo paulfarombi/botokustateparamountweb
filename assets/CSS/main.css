@@ -67,7 +67,7 @@ header .navbar {
     justify-content: space-between;
 }
 .logo {
-    float: left;
+    /* float: left; */
     display: inline-block;    
 }
 .logo h2 {
