@@ -57,7 +57,7 @@ header {
 header .navbar {
     width: 100%;
     display: inline-flex;
-    padding: 20px 80px;
+    padding: 20px 60px;
     /* align-items: center; */
 }
 
@@ -126,7 +126,7 @@ header .navbar {
 /* Carousel Session */
 .carousel-sec {
     width: 100%;
-    padding: 30px 80px 0;
+    padding: 30px 60px 0;
 }
 .carousel-sec .hr {
     padding-bottom: 5px;
@@ -188,7 +188,7 @@ header .navbar {
 
 /* About Togbe best features */
 .best-features {
-    margin: 30px 80px 0;
+    margin: 30px 60px 0;
 }
 .best-features .row {
     display: inline-flex;
@@ -262,7 +262,7 @@ header .navbar {
 
 /* Latest news session */
 .news {
-    padding: 0 80px;
+    padding: 0 60px;
 }
 
 .news .media-block {
@@ -378,7 +378,7 @@ header .navbar {
     background-color: var(--black);
 }
 .footer .container {
-    padding: 30px 80px 0;
+    padding: 30px 60px 0;
     color: #fff;
 }
 
@@ -506,4 +506,30 @@ header .navbar {
 }
 .footer .footer-policy a:hover {
     color: #fff;
+}
+
+@media (max-width: 992px) {
+    /* Header Session */
+    header {
+        width: 100%;
+        left: 0;
+    }
+    .navbar-expand-lg {
+        width: 100%;
+        /* left: 0; */
+        justify-content: space-between;
+    }
+      
+    .navbar:after {
+        display: none; 
+    }
+    .navbar-expand-lg .container {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    #navbarResponsive {
+        z-index: 99999;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    }
 }
