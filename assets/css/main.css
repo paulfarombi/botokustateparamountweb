@@ -645,6 +645,8 @@ header .navbar {
     header {
         width: 100%;
         left: 0;
+    }
+    header .navbar {
         padding: 15px 20px;
     }
     .hero-banner h4 {
