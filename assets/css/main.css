@@ -416,7 +416,7 @@ header .navbar {
 }
 .footer .footer-left {
     display: inline-block;
-    width: 25%;
+    /* width: 25%; */
 }
 .logo-footer {
     padding-bottom: 15px;
@@ -583,23 +583,62 @@ header .navbar {
     .navbar .navbar-nav .nav-item {
         border-bottom: 1px solid #eee;
         padding: 10px;
-      }
-      .navbar .navbar-nav .nav-item:last-child {
+    }
+    .navbar .navbar-nav .nav-item:last-child {
         border-bottom: none;
       }
       .navbar .navbar-nav a.nav-link {
         padding: 15px 0px;
         color: #1e1e1e !important;
-      }
-      .navbar .navbar-nav .nav-link:hover,
-      .navbar .navbar-nav .active > .nav-link,
-      .navbar .navbar-nav .nav-link.active,
-      .navbar .navbar-nav .nav-link.show,
-      .navbar .navbar-nav .show > .nav-link {
+    }
+    .navbar .navbar-nav .nav-link:hover,
+    .navbar .navbar-nav .active > .nav-link,
+    .navbar .navbar-nav .nav-link.active,
+    .navbar .navbar-nav .nav-link.show,
+    .navbar .navbar-nav .show > .nav-link {
         color: var(--green) !important;
         border-bottom: none !important;
         padding-bottom: 15px;
-      }
+    }
+    .hero-banner h4 {
+        font-size: 40px;
+    }
+    .hero-banner h2 {
+        font-size: 75px;   
+    }
+    .logo-footer h4{
+        font-size: 13px;
+    }
+    .logo-footer h3{
+        font-size: 20px;
+    }
+    .footer .contact-footer h3 {
+        font-size: 20px;
+    }
+    .footer .footer-contents .head {
+        font-size: 16px;
+    }
+    .footer .contact-footer p {
+        font-size: 14px;
+    }
+    .footer-form {
+        width: 220px;
+        overflow: inherit;
+    }
+    .footer .footer-form h4 {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .footer input#email {
+        width: 170px;
+    }
+    .footer .btn-list {
+        padding: 0 5px;
+    }
+
+    
+    
+
 
 }
 
