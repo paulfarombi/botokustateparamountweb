@@ -52,12 +52,13 @@ header {
     -moz-transition: all 0.3s ease-in-out 0s;
     -o-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
+    position: fixed;
 }
 
 header .navbar {
     width: 100%;
     display: inline-flex;
-    padding: 20px 60px;
+    padding: 0 60px;
     /* align-items: center; */
 }
 
@@ -67,13 +68,20 @@ header .navbar {
     justify-content: space-between;
 }
 .logo {
-    /* float: left; */
-    display: inline-block;    
+    display: inline-flex;
+    align-items: center;   
+}
+.logo img {
+    height: 70px;
+    width: 70px;
+    padding: 3px 10px 3px 0;
 }
 .logo h2 {
-    font-size: 14px;
     color: var(--gold);
-    font-size: 12px;
+    font-size: 24px;
+}
+.logo h2 span {
+    font-size: 20px;
 }
 #navbarResponsive {
     z-index: 999;
@@ -421,8 +429,8 @@ header .navbar {
     padding-bottom: 15px;
 }
 .logo-footer img {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     padding-bottom: 10px;
 }
 
@@ -648,6 +656,17 @@ header .navbar {
     }
     header .navbar {
         padding: 15px 20px;
+    }
+    header .logo h2 {
+        font-size: 18px;
+    }
+    header .logo h2 span {
+        font-size: 15px;
+    }
+    header .logo img {
+        height: 70px;
+        width: 70px;
+        padding: 3px 10px 3px 0;
     }
     header .navbar .navbar-toggler {
         right: 10px;
