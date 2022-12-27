@@ -79,13 +79,68 @@
         </nav>
       </header>
 
+
       <!-- banner section -->
       <section class="banner">
         <div class="hero-banner">
-          <h4>The Paramount Chief of</h4>
-          <h2>Botoku State</h2>
+            <!-- Radio button start -->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!-- radio buttons end -->
+            <!-- slide Images start -->
+            <div class="slide first">
+                <img src="Images/Botoku Chief web banner.png" alt="carousel image">
+                <div class="slide-text">
+                  <h4>The Paramount Chief of</h4>
+                  <h2>Botoku State</h2>
+                </div>
+                
+            </div>
+
+          <div class="slide">
+                <img src="Images/param1.png" alt="carousel image">
+                <div class="slide-text">
+                  <h4>Botoku Traditional Area</h4>
+                  <h2>TOGBEGA SEI II</h2>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="Images/Botoku Chief web banner.png" alt="carousel image">
+                <div class="slide-text">
+                  <h4>The Coronation of</h4>
+                  <h2>TOGBEGA SEI II</h2>
+                </div>
+              </div>
+            <div class="slide">
+                <img src="Images/param2.png">
+                <div class="slide-text">
+                  <h4>The Paramount Chief of</h4>
+                  <h2>Botoku State</h2>
+                </div>
+            </div>
+            <!-- slide Images end -->
+            <!-- automatic navigation start -->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            <!-- automatic navigation end -->       
+            
         </div>
-      </section>
+        <!-- manual navigation start -->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+            <!-- manual navigation end -->   
+    </section>
+    <!-- image slider ends -->
 
       <!-- Carousel Section -->
 
@@ -345,6 +400,7 @@
       <script src="assets/js/slick.js"></script>
       <script src="assets/js/isotope.js"></script>
       <script src="assets/js/accordions.js"></script>
+      <script src="assets/js/autoslider.js"></script>
   
       <script language="text/Javascript">
         cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
@@ -358,6 +414,7 @@
           }
         }
       </script>
+      
 
 </body>
 </html>
