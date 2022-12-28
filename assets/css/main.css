@@ -955,7 +955,7 @@ header .navbar {
     }
 
     .navigation-manual {
-        bottom: 150px;
+        bottom: 165px;
         z-index: 2;
         /* position: relative;*/
     }
@@ -964,7 +964,7 @@ header .navbar {
         margin-right: 20px;
     }
     .navigation-auto {
-        bottom: 158px;
+        bottom: 173px;
         z-index: 2;
     }
 
