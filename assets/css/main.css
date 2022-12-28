@@ -125,9 +125,11 @@ header .navbar {
     color: var(--gold);
     text-decoration: none;
     padding: 7px 10px;
+    margin-right: 10px;
     text-transform: uppercase;
     font-weight: bold;
 }
+
 .current {
     background-color: var(--gold);
     color: var(--bg);
@@ -215,7 +217,7 @@ header .navbar {
     position: absolute;
     z-index: 1;
     width: 100%;
-    bottom: 150px;
+    bottom: 142px;
     display: flex;
     justify-content: center;
 }
@@ -383,20 +385,36 @@ header .navbar {
     position: relative; */
     padding-left: 50px;
 }
-.best-features .col-md-4 {
+.best-features .cont-accord {
     width: 100%;
     background-color: var(--bg);
 }
 
 .accordion li {
-  cursor: pointer;
-  font-size: 17px;
   color: var(--green);
   border-bottom: 0.05px solid rgba(0, 0, 0, 0.3);
   padding: 15px 0;
   width: 100%;
-  font-weight: bold;
+  /* font-weight: bold; */
   transition: all 0.3s;
+}
+
+.accordion h4 {
+    font-size: 15px;
+    padding: 0 15px 10px;
+}
+
+.accordion li a {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 0 15px;
+}
+
+.accordion li p {
+    font-size: 14px;
+    text-align: justify;
+    padding: 0 15px;
 }
 .accordion .fa-solid {
     float: right;
@@ -838,7 +856,7 @@ header .navbar {
         position: absolute;
     }
     .navbar .navbar-collapse {
-        display: flex;
+        /* display: flex; */
         flex-direction: column;
     }
 
@@ -956,8 +974,7 @@ header .navbar {
     }
 
     .hero-banner h4 {
-        font-size: 16px;
-        padding-top: 170px;
+        font-size: 32px;
     }
     .hero-banner h2 {
         font-size: 33px;   
