@@ -954,17 +954,19 @@ header .navbar {
         top: 30px;
     }
 
-    /* .navigation-manual {
-        bottom: 50px;
-        /* position: relative;
-    } */
+    .navigation-manual {
+        bottom: 150px;
+        z-index: 2;
+        /* position: relative;*/
+    }
 
     .manual-btn:not(:last-child){
         margin-right: 20px;
     }
-    /* .navigation-auto {
-        bottom: 58px;
-    } */
+    .navigation-auto {
+        bottom: 158px;
+        z-index: 2;
+    }
 
     .navigation-auto div:not(:last-child){
         margin-right: 20px;
@@ -981,7 +983,6 @@ header .navbar {
         text-align: center;
         top: 50%;
         text-align: justify;
-        /* padding: 0 auto; */
         position: absolute;
     }
 
