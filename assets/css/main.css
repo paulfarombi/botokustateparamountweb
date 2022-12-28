@@ -207,7 +207,7 @@ header .navbar {
 
 /* navigation slide */
 .navigation-manual {
-    position: absolute;
+    /* position: absolute; */
     z-index: 1;
     width: 100%;
     bottom: 142px;
@@ -956,13 +956,14 @@ header .navbar {
 
     .navigation-manual {
         bottom: 50px;
+        /* position: relative; */
     }
 
     .manual-btn:not(:last-child){
         margin-right: 20px;
     }
     .navigation-auto {
-        bottom: 50px;
+        bottom: 55px;
     }
 
     .navigation-auto div:not(:last-child){
