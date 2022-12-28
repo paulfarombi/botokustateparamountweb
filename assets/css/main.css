@@ -433,9 +433,6 @@ header .navbar {
 }
 
 
-
-
-
 /* Latest news session */
 .news {
     padding: 0 60px;
@@ -655,10 +652,16 @@ header .navbar {
     width: 100%;
     border-top: 2px solid #fff;
     padding: 20px 0;
-    display: inline-flex;
+    text-align: center;
 }
 .footer .footer-socials {
+    width: 100%;
     align-items: center;
+}
+
+.footer .footer-socials ul {
+    text-align: center;
+    display: inline-flex;
 }
 
 .footer .footer-socials a {
@@ -673,6 +676,9 @@ header .navbar {
     color: var(--gold);
 }
 
+.footer .footer-bottom {
+    text-align: center;
+}
 
 /* ABOUT PAGE */
 .about-togbe-banner {
@@ -1075,10 +1081,10 @@ header .navbar {
     }
     .footer .footer-socials {
         width: 100%;
-        display: inline-flex;
     }
     .footer .footer-socials ul {
         text-align: center;
+        display: inline-flex;
     }
 
     .about-togbe-banner .cont-bout {
