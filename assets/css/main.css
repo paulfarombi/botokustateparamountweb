@@ -936,7 +936,7 @@ header .navbar {
         left: 0;
     }
     header .navbar {
-        padding: 15px 20px;
+        padding: 10px 15px;
     }
     header .logo h2 {
         font-size: 18px;
@@ -954,17 +954,17 @@ header .navbar {
         top: 30px;
     }
 
-    .navigation-manual {
+    /* .navigation-manual {
         bottom: 50px;
         /* position: relative; */
-    }
+    } */
 
     .manual-btn:not(:last-child){
         margin-right: 20px;
     }
-    .navigation-auto {
-        bottom: 55px;
-    }
+    /* .navigation-auto {
+        bottom: 58px;
+    } */
 
     .navigation-auto div:not(:last-child){
         margin-right: 20px;
