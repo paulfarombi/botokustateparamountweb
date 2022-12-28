@@ -130,15 +130,8 @@ header .navbar {
     font-weight: bold;
 }
 
-.current {
-    background-color: var(--gold);
-    color: var(--bg);
-    border-radius: 10px;
-    margin-right: 10px;
-}
 .navbar-collapse ul li a:hover {
-    background-color: var(--gold);
-    color: var(--black);
+    color: var(--bg);
     border-radius: 10px;
 }
 .navbar .navbar-toggler-icon {
@@ -870,9 +863,10 @@ header .navbar {
         background-color: #fff;        
         /* box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1); */
     }
-    .current {
-        color: var(--bg);
-        border: none;
+
+    .navbar-collapse ul li a:hover {
+        background-color: none;
+        border-radius: 0;
     }
 
     .navbar .navbar-nav .nav-item {
@@ -983,6 +977,11 @@ header .navbar {
     .carousel-sec {
         padding: 20px 20px 0;
     }
+    
+    .hover-effect {
+        display: none;
+    }
+
     .best-features {
         margin: 20px 20px 0;
     }
