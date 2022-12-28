@@ -936,7 +936,7 @@ header .navbar {
         left: 0;
     }
     header .navbar {
-        padding: 10px 15px;
+        padding: 8px 12px;
     }
     header .logo h2 {
         font-size: 18px;
@@ -979,12 +979,13 @@ header .navbar {
         font-size: 33px;   
     }
 
-    .slide .slide-text {
+    /* .slide .slide-text {
         text-align: center;
         top: 50%;
-        text-align: justify;
+        left: 40%;
+        right: 40%;
         position: absolute;
-    }
+    } */
 
     .carousel-sec {
         padding: 20px 20px 0;
