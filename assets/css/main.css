@@ -291,7 +291,7 @@ header .navbar {
     padding-bottom: 5px;
     border-bottom: 3px solid var(--gold);
 }
-.carousel-sec .row {
+.carousel-sec .ron {
     display: inline-flex;
     width: 100%;
 }
@@ -349,11 +349,11 @@ header .navbar {
 .best-features {
     margin: 30px 60px 0;
 }
-.best-features .row {
+.best-features .ron {
     display: inline-flex;
     padding-bottom: 30px;
 }
-.best-features .row .left-content {
+.best-features .ron .left-content {
     width: 50%;
     /* position: relative; */
     color: var(--gold);
@@ -365,6 +365,7 @@ header .navbar {
 .best-features .left-content p {
     color: var(--main-color);
     font-size: 15px;
+    text-align: justify;
 }
 
 .best-features .left-content a {
@@ -891,10 +892,10 @@ header .navbar {
     }
 
     .hero-banner h4 {
-        font-size: 40px;
+        font-size: 34px;
     }
     .hero-banner h2 {
-        font-size: 75px;   
+        font-size: 60px;   
     }
     .logo-footer h4{
         font-size: 13px;
@@ -977,7 +978,7 @@ header .navbar {
     .carousel-sec {
         padding: 20px 20px 0;
     }
-    
+
     .hover-effect {
         display: none;
     }
@@ -985,12 +986,12 @@ header .navbar {
     .best-features {
         margin: 20px 20px 0;
     }
-    .best-features .row {
+    .best-features .ron {
         display: flex;
         flex-direction: column;
         padding-bottom: 20px;
     }
-    .best-features .row .left-content {
+    .best-features .ron .left-content {
         width: 100%;
         padding-bottom: 20px;
     }
@@ -998,7 +999,7 @@ header .navbar {
     .best-features h3 {
         font-size: 18px;
     }
-    .best-features .row .right-content {
+    .best-features .ron .right-content {
         width: 100%;
         border: 1px solid rgba(0, 0, 0, 0.3);
         padding-left: 0;
