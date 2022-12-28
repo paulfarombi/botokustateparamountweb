@@ -7,6 +7,14 @@
     <meta name="keywords" content="Paramount Chief,Ho,Botoku State,Yam Festival,Volta Region,Ghana,West Africa,House of Chiefs">
     <meta name="description" content="Togbe ... born ... (born day month year) is the Chief of the Botoku State and President of Botoku Traditional Area. Togbe is the Executive Chairman of World Trade Centre Accra and was voted member of the Board of Directors of the World Trade Centre in 2015.">
     <title>Paramount Chief - Botoku Traditional Area</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $(document).ready(function(){
+          $('#toggleMenu').click(function(){
+             $('ul').toggleClass('show')
+          });
+        });
+    </script>
 
    <!-- Core CSS -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
@@ -43,13 +51,14 @@
             <button
             class="navbar-toggler"
             type="button"
-            
+            <!-- id="toggleMenu"
+            onclick="toggleMenu()" -->
             data-toggle="collapse"
             data-target="#navbarResponsive"
             aria-controls="navbarResponsive"
             aria-expanded="false"
             aria-label="Toggle navigation"
-            onclick="navbarToggler()"
+            
           >
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -395,13 +404,18 @@
         </div>
       </footer>
 
-      <!-- Additional Scripts -->
-      <script src="assets/js/custom.js"></script>
-      <script src="assets/js/owl.js"></script>
-      <script src="assets/js/slick.js"></script>
-      <script src="assets/js/isotope.js"></script>
-      <script src="assets/js/accordions.js"></script>
-      <script src="assets/js/autoslider.js"></script>
+      <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Additional Scripts -->
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/isotope.js"></script>
+    <script src="assets/js/accordions.js"></script>
+    <script src="assets/js/autoslider.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
   
       <script language="text/Javascript">
         cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
