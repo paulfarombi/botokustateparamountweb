@@ -1087,13 +1087,10 @@ header .navbar {
         align-self: flex-start;
     }
     .footer .footer-socials {
-        width: 50%;
+        width: 100%;
     }
     .footer .footer-socials ul {
-        float: left;
-    }
-    .footer .footer-policy {
-        width: 50%;
+        text-align: center;
     }
 
     .about-togbe-banner .cont-bout {
