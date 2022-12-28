@@ -698,13 +698,13 @@ header .navbar {
     background-color: var(--bg);
     padding-top: 120px;    
 }
-.about-togbe-banner .container {
+.about-togbe-banner .cont-bout {
     margin: 0 80px 0;
     background-color: var(--black);
     color: var(--gold);
     text-align: center;
 }
-.about-togbe-banner .container h2 {
+.about-togbe-banner .cont-bout h2 {
     padding: 60px 0;
     font-size: 40px;
 }
@@ -713,28 +713,28 @@ header .navbar {
     padding: 0 80px;
     background-color: var(--bg);
 }
-.about-togbe .container {
+.about-togbe .cont-bout {
     padding: 40px;
     background-color: #fff;
     display: inline-flex;
 }
 
-.about-togbe .container .about-togbe-left {
+.about-togbe .cont-bout .about-togbe-left {
     width: 65%;
     text-align: justify;
 }
 
-.about-togbe .container .about-togbe-left p {
+.about-togbe .cont-bout .about-togbe-left p {
     padding-bottom: 15px;
     margin-bottom: 10px;
     font-size: 15px;
 }
 
-.about-togbe .container .about-togbe-left ul li {
+.about-togbe .cont-bout .about-togbe-left ul li {
     padding-bottom: 15px;
 }
 
-.about-togbe .container .about-togbe-left ul {
+.about-togbe .cont-bout .about-togbe-left ul {
     padding-bottom: 15px;
     margin-bottom: 10px;
 }
@@ -752,7 +752,8 @@ header .navbar {
 
 .about-togbe .about-togbe-right img{
     width: 100%;
-    height: 200px;
+    height: 350px;
+    object-fit: cover;
 }
 
 .about-togbe .about-togbe-right h3 {
@@ -994,6 +995,10 @@ header .navbar {
         width: 100%;
         padding-bottom: 20px;
     }
+
+    .best-features h3 {
+        font-size: 18px;
+    }
     .best-features .row .right-content {
         width: 100%;
         border: 1px solid rgba(0, 0, 0, 0.3);
@@ -1079,11 +1084,11 @@ header .navbar {
         width: 50%;
     }
 
-    .about-togbe-banner .container {
+    .about-togbe-banner .cont-bout {
         margin: 0 20px 0;
     }
 
-    .about-togbe-banner .container h2 {
+    .about-togbe-banner .cont-bout h2 {
         padding: 40px 0;
         font-size: 30px;
     }
@@ -1092,13 +1097,13 @@ header .navbar {
         width: 100%;
         display: inline-block;
     }
-    .about-togbe .container {
+    .about-togbe .cont-bout {
         padding: 20px;
         display: inline-block;
         width: 100%;
     }
 
-    .about-togbe .container .about-togbe-left {
+    .about-togbe .cont-bout .about-togbe-left {
         width: 100%;
     }
     .about-togbe .about-togbe-right {
