@@ -12,7 +12,7 @@
 * {
     padding: 0;
     margin: 0;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 body {
@@ -215,7 +215,7 @@ header .navbar {
     position: absolute;
     z-index: 1;
     width: 100%;
-    bottom: 100px;
+    bottom: 150px;
     display: flex;
     justify-content: center;
 }
@@ -260,7 +260,7 @@ header .navbar {
     width: 100%;
     z-index: 1;
     justify-content: center;
-    bottom: 100px;
+    bottom: 150px;
 }
 
 .navigation-auto div {
@@ -941,14 +941,14 @@ header .navbar {
     }
 
     .navigation-manual {
-        bottom: 0;
+        bottom: 50px;
     }
 
     .manual-btn:not(:last-child){
         margin-right: 20px;
     }
     .navigation-auto {
-        bottom: 0;
+        bottom: 50px;
     }
 
     .navigation-auto div:not(:last-child){
