@@ -552,7 +552,7 @@ header .navbar {
 .footer {
     background-color: var(--black);
 }
-.footer .container {
+.footer .cont-foot {
     padding: 30px 60px 0;
     color: #fff;
 }
@@ -656,35 +656,23 @@ header .navbar {
     border-top: 2px solid #fff;
     padding: 20px 0;
     display: inline-flex;
-    text-align: right;
 }
 .footer .footer-socials {
-    width: 55%;
+    align-items: center;
 }
-.footer .footer-socials ul {
-    display: flex;
-    float: right;
-}
+
 .footer .footer-socials a {
     color: #fff;
-    padding-right: 7px;
 }
+
+.footer .footer-socials ul li:not(:last-child) {
+    padding-right: 15px;
+}
+
 .footer .footer-socials a:hover {
     color: var(--gold);
 }
-.footer-policy {
-    width: 45%;
-    /* float: right; */
-}
-.footer-policy ul li {
-    float: right;
-}
-.footer .footer-policy a {
-    color: var(--gold);
-}
-.footer .footer-policy a:hover {
-    color: #fff;
-}
+
 
 /* ABOUT PAGE */
 .about-togbe-banner {
@@ -939,7 +927,7 @@ header .navbar {
         padding: 8px 12px;
     }
     header .logo h2 {
-        font-size: 18px;
+        font-size: 24px;
     }
     header .logo h2 span {
         font-size: 15px;
@@ -1059,7 +1047,7 @@ header .navbar {
         font-size: 32px;
     }
 
-    .footer .container {
+    .footer .cont-foot {
         padding: 30px 20px 0;
     }
 
@@ -1083,11 +1071,11 @@ header .navbar {
         align-items: center;
     }
     .footer .footer-bottom {
-        text-align: left;
-        align-self: flex-start;
+        text-align: center;
     }
     .footer .footer-socials {
         width: 100%;
+        display: inline-flex;
     }
     .footer .footer-socials ul {
         text-align: center;
