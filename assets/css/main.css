@@ -992,6 +992,10 @@ header .navbar {
         line-height: 33px; 
     }
 
+    .slide .slide-text a {
+        font-size: 18px;
+    }
+
     /* .slide .slide-text {
         text-align: center;
         top: 50%;
