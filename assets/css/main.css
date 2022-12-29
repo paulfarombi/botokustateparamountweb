@@ -966,18 +966,18 @@ header .navbar {
         top: 30px;
     }
 
-    /* .navigation-manual {
+    .navigation-manual {
         bottom: 165px;
         z-index: 2;
-    } */
+    }
 
     .manual-btn:not(:last-child){
         margin-right: 20px;
     }
-    /* .navigation-auto {
+    .navigation-auto {
         bottom: 173px;
         z-index: 2;
-    } */
+    }
 
     .navigation-auto div:not(:last-child){
         margin-right: 20px;
