@@ -196,22 +196,31 @@ header .navbar {
 }
 
 .slide .slide-text a {
-    color: var(--bg);
-    font-size: 25px;
+    color: var(--black);
+    font-size: 22px;
+    font-weight: bold;
+    background: var(--gold);
+    border-radius: 5px;
+    padding: 5px 10px 10px;
+    text-align: center;
 }
 
 .slide .slide-text a:hover {
+    background-color: var(--bg);
     color: var(--gold);
 }
 
 .hero-banner h4 {
     font-size: 45px;
     font-weight: bold;
+    line-height: 45px;
 }
 .hero-banner h2 {
     top: 0;
     font-size: 85px;
     font-weight: bold;
+    line-height: 85px;
+    padding-bottom: 50px;
 }
 
 /* navigation slide */
@@ -219,7 +228,7 @@ header .navbar {
     position: absolute;
     z-index: 1;
     width: 100%;
-    bottom: 142px;
+    bottom: 80px;
     display: flex;
     justify-content: center;
 }
@@ -264,7 +273,7 @@ header .navbar {
     width: 100%;
     z-index: 1;
     justify-content: center;
-    bottom: 150px;
+    bottom: 88px;
 }
 
 .navigation-auto div {
@@ -762,13 +771,13 @@ header .navbar {
 
 /* Contact info */
 
-#contact-info{
-    border-bottom: 1px dotted #363636;
-    margin-bottom: 20px;
+.cont-form{
+    padding-top: 120px;
+    padding-bottom: 50px;
 }
 
 .py-3 {
-    padding: 120px 80px 30px;
+    padding: 0 80px;
 }
 
 .contact-leading{
@@ -812,12 +821,12 @@ header .navbar {
 
 .py-3 .cont-form .btn-cont {
    background-color: var(--black);
-   padding: 10px 20px;
-   margin-top: 30px;
+   padding: 8px 10px;
+   margin-top: 10px;
    color: #fff;
    border: none;
    cursor: pointer;
-   border-radius: 20px;
+   border-radius: 10px;
    font-size: 20px;
 }
 
@@ -957,19 +966,18 @@ header .navbar {
         top: 30px;
     }
 
-    .navigation-manual {
+    /* .navigation-manual {
         bottom: 165px;
         z-index: 2;
-        /* position: relative;*/
-    }
+    } */
 
     .manual-btn:not(:last-child){
         margin-right: 20px;
     }
-    .navigation-auto {
+    /* .navigation-auto {
         bottom: 173px;
         z-index: 2;
-    }
+    } */
 
     .navigation-auto div:not(:last-child){
         margin-right: 20px;
@@ -977,9 +985,11 @@ header .navbar {
 
     .hero-banner h4 {
         font-size: 28px;
+        line-height: 28px;
     }
     .hero-banner h2 {
-        font-size: 33px;   
+        font-size: 33px;
+        line-height: 33px; 
     }
 
     /* .slide .slide-text {

@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Paramount Chief,Ho,Botoku State,Yam Festival,Volta Region,Ghana,West Africa,House of Chiefs">
     <meta name="description" content="Togbe ... born ... (born day month year) is the Chief of the Botoku State and President of Botoku Traditional Area. Togbe is the Executive Chairman of World Trade Centre Accra and was voted member of the Board of Directors of the World Trade Centre in 2015.">
-    <title>About Togbe SEI</title>
-
+    <title>Botoku Traditional Area</title>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script>
         $(document).ready(function(){
@@ -52,6 +51,8 @@
                   alt="logo"/></a>
               <h2>TOGBEGA SEI II</h2>
             </div>
+            <!-- id="toggleMenu"
+            onclick="toggleMenu()" -->
             <button
             class="navbar-toggler"
             type="button"
@@ -61,6 +62,7 @@
             aria-controls="navbarResponsive"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            
           >
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -70,10 +72,10 @@
                 <li class="nav-item">
                   <a class="nav-link" href="index.html">Home</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                   <a class="nav-link" href="about.html">About</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                   <a class="nav-link" href="state.html">Botoku State</a>
                 </li>  
                 <li class="nav-item">
@@ -91,48 +93,74 @@
         </nav>
       </header>
 
-      <!-- About banner section -->
-      <section class="about-togbe-banner">
-        <div class="cont-bout">
-          <h2>ABOUT TOGBEGA SEI II</h2>
-        </div>
-      </section>
 
-    <!-- About togbe Sei -->
-    <div class="about-togbe">
-        <div class="cont-bout">
-            <div class="about-togbe-left">
-            <p>Togbega Sei II known in his private life as Nelson Mawuli Gbadagba is a Self-motivated, selfless personnel, Critical Thinker and Result Oriented Leader. He is an Educationist, social entrepreneur, trainer, motivational speaker. He has several exposure and experience working in, China, Kenya, South Africa, Cameroon and many others.</p>
-
-            <p>Togbega is an <b>Energy Expert, Licensed Herbal Doctor,</b> and <b>Human Resource Manager.</b> He has over 10 years’ experience in Corporate Management, Financial Management, Social Work, ICT, Marketing, Micro-finance, and Directorship.</p>
-
-            <ul>
-                <li><b>Specialties:-</b></li>
-                <li>- Lecturing</li>
-                <li>- Corporate Management</li>
-                <li>- Business Development Planning</li>
-                <li>- Micro finance</li>
-                <li>- Human Resource Management</li>
-                <li>- Compensation and Benefits</li>
-                <li>- Strategic Management</li>
-                <li>- Org. Development.</li>
-            </ul>
-
-            <p class="last-p">Togbega Sei II is a celebrated young international businessman, educationist and a product of Ghana Institute of Management And Public Administration (GIMPA) where he obtained his Master of Science in <b>Energy Economics</b> and EP University College, Ho where he obtained his Bachelor of Science in Business Administration majoring in <b>Human Resource Management.</b>
-
-                Togbega was one of the 21 contestants during Council of State Elections in 2016.
-                The Energy Expert and human resource Manager who has spent years in the filed both home and abroad promises to revitalize the association in the municipality and the country.
-                Togbega Sei II is the Principal and Lecturer of <b>SOUTHERN HERBAL MEDICAL COLLEGE.</b> A tertiary Institution focused on Formal Education concerned with Herbal Medicines practices in Ghana.</p>
-            </div>
-            <div class="about-togbe-right">
-                <img src="Images/Togbeseimawuli.jpeg" alt="">
-                <h3>TOGBEGA SEI II</h3>
+      <!-- banner section -->
+      <section class="banner">
+        <div class="hero-banner">
+            <!-- Radio button start -->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!-- radio buttons end -->
+            <!-- slide Images start -->
+            <div class="slide first">
+                <img src="Images/Botoku Chief web banner.png" alt="carousel image">
+                <div class="slide-text">
+                  <h4>The Paramount Chief of</h4>
+                  <h2>Botoku State</h2>
+                  <a href="#">Donate Now</a>
+                </div>
+                
             </div>
 
+          <div class="slide">
+                <img src="Images/param1.png" alt="carousel image">
+                <div class="slide-text">
+                  <h4>The Paramount Chief of</h4>
+                  <h2>Botoku State</h2>
+                  <a href="#">Donate Now</a>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="Images/Botoku Chief web banner.png" alt="carousel image">
+                <div class="slide-text">
+                  <h4>The Paramount Chief of</h4>
+                  <h2>Botoku State</h2>
+                  <a href="#">Donate Now</a>
+                </div>
+              </div>
+            <div class="slide">
+                <img src="Images/param2.png">
+                <div class="slide-text">
+                  <h4>The Paramount Chief of</h4>
+                  <h2>Botoku State</h2>
+                  <a href="#">Donate Now</a>
+                </div>
+            </div>
+            <!-- slide Images end -->
+            <!-- automatic navigation start -->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            <!-- automatic navigation end -->       
+            
         </div>
-    </div>
+        <!-- manual navigation start -->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+            <!-- manual navigation end -->   
+    </section>
+    <!-- image slider ends -->
 
-    
+     
 
     <!-- Footer session -->
     <footer class="footer">
@@ -205,15 +233,15 @@
                 <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
               </li>              
             </ul>
-          </div>
-          
+
+          </div>          
          </div>
 
          </div>
         </div>
       </footer>
 
-       <!-- Bootstrap core JavaScript -->
+      <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
@@ -238,6 +266,7 @@
           }
         }
       </script>
+      
 
 </body>
 </html>
