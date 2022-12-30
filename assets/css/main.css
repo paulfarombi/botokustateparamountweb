@@ -201,7 +201,7 @@ header .navbar {
 }
 
 .banner .hero-banner {
-    width: 1500%;
+    width: 00%;
     height: 500px;
     display: flex;
     color:var(--gold);
