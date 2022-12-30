@@ -803,7 +803,10 @@ header .navbar {
     padding-top: 10px;
 }
 
-
+/* News page */
+.pressed {
+    padding-top: 80px;
+}
 
 /* Contact info */
 
