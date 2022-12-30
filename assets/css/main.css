@@ -1229,4 +1229,21 @@ header .navbar {
     .cont-form {
         margin-top: 120px;
     }
+
+    .cont-gallery {
+        padding: 20px;
+    }
+
+    .cont-gallery a {
+        font-size: 15px;
+    }
+
+    .cont-gallery .gallery-row {
+        display: block;
+    }
+
+    .cont-gallery .content-gal {
+        width: 100%;
+        padding-right: 0;
+    }
 }
