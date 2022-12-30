@@ -340,6 +340,7 @@ header .navbar {
 .carousel-sec {
     width: 100%;
     padding: 30px 60px 0;
+    z-index: 3;
 }
 .carousel-sec .hr {
     padding-bottom: 5px;
