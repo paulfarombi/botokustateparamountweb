@@ -1242,11 +1242,20 @@ header .navbar {
     }
 
     .cont-gallery .gallery-row {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        width: 100%;        
     }
 
-    .cont-gallery .content-gal {
+    .cont-gallery .gallery-row .content-gal {
         width: 100%;
         padding-right: 0;
+        padding-bottom: 20px;
     }
+    .cont-gallery img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    
 }
